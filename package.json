@@ -1,0 +1,21 @@
+{
+  "name": "mongo-importer",
+  "version": "1.0.0",
+  "description": "import openEHR composition files to mongodb",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openEHR",
+    "json",
+    "mongoDB"
+  ],
+  "author": "Hisham",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.7.1"
+  }
+}
